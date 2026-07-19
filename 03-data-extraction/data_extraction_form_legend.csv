@@ -1,0 +1,32 @@
+field,meaning
+paper_id,Unique local identifier for the primary study
+title,Paper title
+year,Publication year
+venue,Journal/conference/source title
+document_type,"Conference paper, journal article, article, review, etc."
+doi,DOI if available
+doi_url,DOI URL if available
+venue_classification,Q1/Q2 or A/B class
+rq1_in_scope_ml_plus_eda_hwsw,1/0 initial proxy for RQ1 relevance
+approach_type,"Survey, framework, dataset, tool, method, system, etc."
+application_domain_or_eda_subdomain,EDA area or embedded/HW-SW context
+hw_sw_codesign_or_embedded_relevance,1 if HW/SW co-design or embedded relevance is evident
+ml_techniques,ML/AI methods mentioned or inferred from title
+main_problem_addressed,Manual extraction: what problem is solved?
+primary_contribution_summary,Manual extraction: concise contribution summary
+rq2_lifecycle_or_toolchain_relevance,1/0 initial proxy for RQ2 relevance
+lifecycle_activities_supported,Manual/initial extraction of supported lifecycle activities
+data_management_support,Manual extraction
+training_support,Manual extraction
+validation_testing_support,Manual extraction
+deployment_support,Manual extraction
+monitoring_feedback_loop,Manual extraction
+ci_cd_or_automation_support,1/0 initial proxy for automation/process relevance
+integration_pattern,"Manual extraction: e.g., point tool, end-to-end flow, cross-stage loop"
+tools_frameworks_platforms,Manual extraction
+rq3_gap_relevance,Keep 1 unless obviously irrelevant for gap discussion
+reported_limitations,Manual extraction from full text
+reported_threats_or_constraints,Manual extraction from full text
+gap_tags_initial,Initial tags to help clustering gaps
+why_relevant_for_our_positioning,Manual note on how the paper positions relative to your approach
+notes_for_manual_fulltext_reading,Manual notes while reading

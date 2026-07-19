@@ -1,0 +1,13 @@
+Criterion,Meaning,Based on,Type
+IC1_domain_context,"1 if title/source indicates EDA, HW/SW co-design, embedded-system design, RTL/FPGA/VLSI/physical design context",Title/Source title,Automatic proxy
+IC2_ml_ai_data_driven,"1 if title mentions machine learning, deep learning, AI, data-driven, GNN, RL, neural networks, LLM",Title,Automatic proxy
+IC3_lifecycle_workflow_toolchain,1 if title mentions MLOps/DevOps/workflow/pipeline/design flow/toolchain/framework/automation/lifecycle,Title,Automatic proxy
+IC4_core_rq_alignment_proxy,1 if both domain context and ML/AI are present; proxy for alignment with RG/RQ core scope,Derived from IC1+IC2,Automatic proxy
+IC5_peer_reviewed_type_proxy,"1 if document type is Conference Paper, Journal Article, Article or Review",Document Type,Automatic proxy
+IC6_ranked_venue_Q1Q2_or_A_B,1 if venue classification is Q1/Q2 or starts with A/B for conferences,Venue Classification,Automatic
+EC1_non_target_document_type,1 if document type is not conference/journal/article/review,Document Type,Automatic
+EC2_low_or_missing_venue_classification,1 if venue classification is missing or not acceptable,Venue Classification,Automatic
+EC3_isolated_task_paper_no_process_focus,1 if paper looks like task-specific ML for EDA without lifecycle/process/toolchain terms,Title,Heuristic proxy
+EC4_runtime_or_acceleration_only_proxy,1 if title suggests runtime/acceleration/system execution focus without process terms,Title,Heuristic proxy
+EC5_generic_ml_not_domain_specific,1 if ML is present but no EDA/HW-SW/embedded domain is detected,Title,Heuristic proxy
+EC6_generic_process_not_domain_specific,1 if workflow/process terms are present but no EDA/HW-SW/embedded domain is detected,Title,Heuristic proxy

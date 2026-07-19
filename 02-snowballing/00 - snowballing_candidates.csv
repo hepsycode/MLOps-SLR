@@ -1,0 +1,34 @@
+ID,title,year,type,preliminary_rationale
+SB01,MetaML-Pro: Cross-Stage Design Flow Automation for Efficient Deep Learning Acceleration,2026,Backward,Explicitly mentions cross-stage design-flow automation and deep-learning acceleration; directly aligned with lifecycle/toolchain concerns.
+SB02,"hls4ml: A Flexible, Open-Source Platform for Deep Learning Acceleration on Reconfigurable Hardware",2026,Backward,Strong open-source workflow/platform angle linking ML models to FPGA-oriented hardware generation and deployment.
+SB03,da4ml: Distributed arithmetic for real-time neural networks on FPGAs,2026,Backward,Likely relevant as a workflow-capable FPGA deployment/co-design framework tightly linked to hardware-aware ML realization.
+SB04,Preplacement net length and timing estimation by customized graph neural network,2022,Backward,Directly addresses ML inside the physical-design flow with early prediction and integration into upstream design decisions.
+SB05,VLSI placement parameter optimization using deep reinforcement learning,2020,Backward,Clear ML-for-EDA optimization paper on placement tuning; good candidate for flow-aware optimization discussion.
+SB06,A survey of graph neural networks for electronic design automation,2021,Backward,Secondary study directly on GNNs for EDA; strong candidate for state-of-the-art framing and gap identification.
+SB07,Generalizable cross-graph embedding for GNN-based congestion prediction,2021,Backward,"EDA-specific, ML-specific, and centered on prediction within physical-design flow; likely includable."
+SB08,On joint learning for solving placement and routing in chip design,2021,Backward,Strong EDA relevance and multi-stage physical-design flavor; good backward-snowballing candidate.
+SB09,RL-Sizer: VLSI Gate Sizing for Timing Optimization using Deep Reinforcement Learning,2021,Backward,"Direct ML-driven optimization for a concrete EDA stage, with likely strong discussion value for limitations and integration."
+SB10,The Law of Attraction: Affinity-Aware Placement Optimization Using Graph Neural Networks,2021,Backward,Highly relevant graph-learning paper for placement optimization within EDA flow.
+SB11,A customized graph neural network model for guiding analog IC placement,2020,Backward,Useful to broaden the review toward analog/layout automation while remaining EDA-centered.
+SB12,Accurate operation delay prediction for FPGA HLS using graph neural networks,2020,Backward,Very close to your HLS/early-estimation cluster and likely includable under the same rationale as P093/P145.
+SB13,AutoDNNchip: An automated dnn chip predictor and builder for both FPGAs and ASICs,2020,Backward,"Strong HW/SW co-design and automation flavor, bridging ML models and hardware implementation choices."
+SB14,Best of both worlds: Automl codesign of a cnn and its hardware accelerator,2020,Backward,Likely strong match for automated HW/SW co-design with ML-guided search across model/hardware choices.
+SB15,Heterogeneous Graph Neural Network-Based Imitation Learning for Gate Sizing Acceleration,2022,Backward,EDA-specific optimization paper on gate sizing; good fit for ML-enhanced design-flow tasks.
+SB16,LHNN: lattice hypergraph neural network for VLSI congestion prediction,2022,Backward,Another concrete ML-for-physical-design paper with strong EDA alignment.
+SB17,Placement Optimization via PPA-Directed Graph Clustering,2022,Backward,"Likely relevant to physical-design optimization, but title alone does not make ML explicit; inspect abstract/full text before inclusion."
+SB18,ARCO: Adaptive Multi-Agent Reinforcement Learning-Based Hardware/Software Co-Optimization Compiler for Improved Performance in DNN Accelerator Design,2024,Backward,"Potentially strong co-design/compiler paper, but may be more accelerator-compiler specific than EDA-flow oriented."
+SB19,Compiler Autotuning through Multiple-phase Learning,2024,Backward,"Relevant for toolchain optimization, though likely closer to compiler autotuning than EDA/co-design proper."
+SB20,NNSmith: Generating Diverse and Valid Test Cases for Deep Learning Compilers,2023,Backward,"Interesting for validation/toolchain quality, but probably borderline with respect to EDA-specific inclusion."
+SB21,One-shot tuner for deep learning compilers,2022,Backward,"Potentially useful for toolchain/autotuning discussion, but probably borderline unless you keep compiler-centric studies."
+SB22,C2HLSC: Can LLMs Bridge the Software-to-Hardware Design Gap?,2024,Backward,"Potentially very relevant to LLM-enabled HW/SW translation, but venue/workshop type should be checked against your IC/EC."
+SB23,DAVE: Deriving automatically verilog from english,2020,Backward,"Conceptually relevant to natural-language-to-RTL generation, but likely needs venue and peer-review checking."
+SB24,TVM: An automated end-to-end optimizing compiler for deep learning,2018,Backward,"Important background infrastructure for several co-design papers, but too generic to be safely included as a primary study under your IC/EC."
+SB25,"High-Level Synthesis Performance Prediction using GNNs: Benchmarking, Modeling, and Advancing",2022,Backward,"Highly relevant because it supports early HLS timing/resource estimation from graph representations, reducing costly downstream iterations in the design flow."
+SB26,Machine Learning Based Framework for Fast Resource Estimation of RTL Designs Targeting FPGAs,2022,Backward,"Highly relevant because it uses ML for early RTL resource estimation and repeated design iteration support, matching the review focus on lifecycle-aware support in EDA/HW-SW design flows."
+SB27,Leveraging Machine Learning for Gate-level Timing Estimation Using Current Source Models and Effective Capacitance,2022,Backward,Relevant because it targets timing estimation in the design flow and contributes to the broader family of early QoR/timing prediction approaches.
+SB28,A Comprehensive Survey on Electronic Design Automation and Graph Neural Networks: Theory and Applications,2023,Backward,Very useful as a secondary study to structure the graph-based EDA cluster and contextualize multiple prediction/optimization papers.
+SB29,AI-based estimation of embedded software execution cycles in host-compiled simulation,,Forward,
+SB30,Large Language Models for EDA: Future or Mirage?,,Forward,
+SB31,Deep Learning on RISC-V Platforms at the Edge: APerspective on the Hardware and Software Support,,Forward,
+SB32,Leveraging Incremental Machine Learning forReconfigurable Systems Modeling under Dynamic Workloads,,Forward,
+SB33,Special Session: Machine Learning for Embedded System Design,,Forward,
