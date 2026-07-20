@@ -1,6 +1,6 @@
-# Replication Package: ML and MLOps in EDA and HW/SW Co-Design
+# Replication Package: Lifecycle Support for ML-Enabled EDA and HW/SW Co-Design
 
-This repository contains the replication material for a systematic literature review on machine learning (ML) and Machine Learning Operations (MLOps) practices in Electronic Design Automation (EDA) and hardware/software (HW/SW) co-design for embedded systems.
+This repository contains the replication material for a systematic literature review on lifecycle support for ML-Enabled EDA and HW/SW Co-Design for embedded systems.
 
 The package preserves the complete evidence trail used in the review: database exports, merged and de-duplicated records, inclusion/exclusion decisions, backward and forward snowballing, full-text coding forms, and the final set of primary studies.
 
