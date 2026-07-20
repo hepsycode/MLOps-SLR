@@ -12,7 +12,7 @@ Both backward snowballing (screening references cited by the selected studies) a
 - Candidates passing the initial snowballing IC/EC screening: **17**
 - Additional studies retained after full-text assessment: **4**
 
-The four final snowballing studies are `SB01`, `SB13`, `SB14`, and `SB32` and are stored in [`../03-data-extraction/selected-snowballing/`](../03-data-extraction/selected-snowballing/).
+The four final snowballing studies are `SB01`, `SB13`, `SB14`, and `SB32`.
 
 ## Files
 
@@ -24,13 +24,6 @@ The four final snowballing studies are `SB01`, `SB13`, `SB14`, and `SB32` and ar
 | `04_ic_ec_compiled_final.csv` | Completed, machine-readable snowballing screening matrix. |
 | `04_ic_ec_compiled_final.xlsx` | Editable counterpart of the completed snowballing screening matrix. |
 | `04_ic_ec_selected.xlsx` | The 17 candidates retained for snowballing full-text assessment. |
-
-## Subdirectories
-
-| Directory | Purpose |
-|---|---|
-| [`papers-snowballing/`](papers-snowballing/) | Candidate full texts separated by backward and forward discovery path. |
-| [`selected-snowballing/`](selected-snowballing/) | The 17 candidates that passed initial snowballing screening and were considered during full-text assessment. |
 
 ## Identifiers
 

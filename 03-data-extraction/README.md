@@ -21,13 +21,6 @@ This directory contains the full-text coding forms and the canonical final datas
 | `final_selected_papers.xlsx` | Editable spreadsheet counterpart of the canonical final dataset. |
 | `Nuovo documento di testo.txt` | Non-canonical working note containing a draft LaTeX table and a study-identifier list. It is retained for provenance but should not be used as the authoritative dataset. |
 
-## Subdirectories
-
-| Directory | Contents |
-|---|---|
-| [`selected/`](selected/) | Local full-text copies of the 22 studies included from the automatic database search. |
-| [`selected-snowballing/`](selected-snowballing/) | Local full-text copies of the 4 additional studies included through snowballing. |
-
 ## Coding structure
 
 The extraction form is organized around the review questions:
@@ -46,7 +39,7 @@ The fields capture reported limitations, threats or constraints, initial gap tag
 
 ## Canonical source rule
 
-Use `final_selected_papers.csv` as the authoritative machine-readable source for analysis and manuscript tables. The XLSX version is intended for convenient manual inspection. The working TXT note and PDF filenames are supporting artifacts and should not override the final CSV coding.
+Use `final_selected_papers.csv` as the authoritative machine-readable source for analysis and manuscript tables. The XLSX version is intended for convenient manual inspection. 
 
 ## Traceability
 
@@ -55,7 +48,3 @@ Each row uses either a `Pxxx` or `SBxx` identifier. That identifier links the ex
 ## Interpretation note
 
 The extraction records the evidence reported in the publication. A value indicating lifecycle support should be interpreted as documented coverage, not as an independent audit of the implementation, production maturity, or current availability of the software artifact.
-
-## Copyright notice
-
-Before public release, review the license of every PDF in the two subdirectories. Metadata and author-generated coding can be published, but publisher full texts should be removed unless repository redistribution is explicitly allowed.

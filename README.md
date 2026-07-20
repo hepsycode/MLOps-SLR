@@ -75,9 +75,7 @@ The venue-related criteria and thresholds are those defined in the manuscript. S
 
 ## Copyright and public-release notice
 
-Bibliographic metadata, screening decisions, and original coding produced by the authors can be shared as replication material. Publisher PDFs may be protected by copyright even when they were legally accessed by the review team.
-
-**Before publishing this repository publicly, remove any PDF for which redistribution is not explicitly permitted by its license.** A public replication package can retain filenames, study identifiers, DOI values, and links without redistributing copyrighted full texts. The PDF directories may instead be kept in a private reviewer archive.
+Bibliographic metadata, screening decisions, and original coding produced by the authors can be shared as replication material. 
 
 ## Citation
 
