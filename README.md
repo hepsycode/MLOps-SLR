@@ -50,7 +50,6 @@ These identifiers connect PDF filenames, screening records, data extraction rows
 
 - **CSV files** are the portable, machine-readable exports used for inspection and analysis.
 - **XLSX files** preserve the editable working sheets, including filtered or selected views used during screening.
-- **PDF files** are local full-text copies used during screening and extraction.
 - **DOCX/TXT files** contain auxiliary protocol notes or manuscript-oriented working material.
 
 The package does not require a dedicated software environment. CSV files can be processed with any tabular-data tool, while XLSX files can be inspected with a compatible spreadsheet application.
@@ -83,7 +82,7 @@ Please cite the associated paper when using this package. Replace the placeholde
 
 ```bibtex
 @misc{slr_mlops_eda_hwsw,
-  title  = {Machine Learning and MLOps Practices in EDA and HW/SW Co-Design: A Systematic Literature Review},
+  title  = {Lifecycle Support for ML-Enabled EDA and HW/SW Co-Design: A Systematic Literature Review, Taxonomy, and Research Agenda},
   author = {See the associated manuscript},
   year   = {2026},
   note   = {Replication package; replace with the final publication metadata}
