@@ -1,0 +1,59 @@
+scope,metric,value,status,notes
+design,n_empirical_technical_studies,22,READY,Four framing studies excluded from Facet-2 coding.
+design,n_lifecycle_capabilities,10,READY,"DG, FE, DGV, TS, VT, RS, MD, RE, TV, CF."
+design,paired_judgments,220,READY,22 empirical/technical studies × 10 Facet-2 capabilities; paired by study_id + capability_code.
+overall,agreements,201,READY,
+overall,disagreements,19,READY,
+overall,raw_agreement,0.913636,READY,Proportion of identical classifications across the two independent pre-reconciliation author codings.
+overall,cohens_kappa_unweighted,0.852708,READY,Unweighted Cohen's kappa computed across the two independent pre-reconciliation author codings.
+overall,cohens_kappa_quadratic_weighted,0.951184,READY,Complementary ordinal inter-coder agreement statistic using the ordering Absent < Partial < Explicit.
+DG,n,22,READY,
+DG,agreements,21,READY,
+DG,disagreements,1,READY,
+DG,raw_agreement,0.954545,READY,
+DG,cohens_kappa_unweighted,0.928105,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+FE,n,22,READY,
+FE,agreements,19,READY,
+FE,disagreements,3,READY,
+FE,raw_agreement,0.863636,READY,
+FE,cohens_kappa_unweighted,0.726141,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+DGV,n,22,READY,
+DGV,agreements,20,READY,
+DGV,disagreements,2,READY,
+DGV,raw_agreement,0.909091,READY,
+DGV,cohens_kappa_unweighted,0,READY,"Interpret cautiously: raw agreement is 20/22, while kappa is 0 because Coder A used only Absent and Coder B used Absent/Partial, producing a strong marginal-prevalence effect."
+TS,n,22,READY,
+TS,agreements,20,READY,
+TS,disagreements,2,READY,
+TS,raw_agreement,0.909091,READY,
+TS,cohens_kappa_unweighted,0.710526,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+VT,n,22,READY,
+VT,agreements,22,READY,
+VT,disagreements,0,READY,
+VT,raw_agreement,1,READY,
+VT,cohens_kappa_unweighted,1,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+RS,n,22,READY,
+RS,agreements,18,READY,
+RS,disagreements,4,READY,
+RS,raw_agreement,0.818182,READY,
+RS,cohens_kappa_unweighted,0.694444,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+MD,n,22,READY,
+MD,agreements,22,READY,
+MD,disagreements,0,READY,
+MD,raw_agreement,1,READY,
+MD,cohens_kappa_unweighted,1,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+RE,n,22,READY,
+RE,agreements,22,READY,
+RE,disagreements,0,READY,
+RE,raw_agreement,1,READY,
+RE,cohens_kappa_unweighted,1,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
+TV,n,22,READY,
+TV,agreements,22,READY,
+TV,disagreements,0,READY,
+TV,raw_agreement,1,READY,
+TV,cohens_kappa_unweighted,,READY,Undefined because both coders assigned Absent to all 22 studies (no marginal variation); raw agreement is 1.0. The value cell is intentionally blank.
+CF,n,22,READY,
+CF,agreements,15,READY,
+CF,disagreements,7,READY,
+CF,raw_agreement,0.681818,READY,
+CF,cohens_kappa_unweighted,0.453901,READY,Interpret cautiously because n=22 and some categories may have zero marginal frequency.
