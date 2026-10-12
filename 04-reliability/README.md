@@ -8,8 +8,6 @@ During the major revision, **two authors independently re-coded the complete set
 
 The two coding matrices represent the authors' **independent pre-reconciliation judgments**. They were kept separate and used to compute agreement statistics **before any disagreement was reconciled**. The reconciliation step was performed only after the pre-reconciliation statistics had been frozen.
 
-This reliability exercise was conducted specifically during the major-revision stage. It should therefore be described as a **revision-stage two-author inter-coder reliability assessment**, not as an analysis that had already been performed in the original submission.
-
 ## Files
 
 - **`facet2_coder_A.csv`**  
